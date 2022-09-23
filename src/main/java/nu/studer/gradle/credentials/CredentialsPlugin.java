@@ -36,7 +36,7 @@ public class CredentialsPlugin implements Plugin<ExtensionAware> {
     public static final String DEFAULT_PASSPHRASE_CREDENTIALS_FILE = "gradle.encrypted.properties";
     public static final String DEFAULT_PASSPHRASE = ">>Default passphrase to encrypt passwords!<<";
 
-    public static final String CREDENTIALS_CONTAINER_PROPERTY = "credentials";
+    public static final String CREDENTIALS_CONTAINER_PROPERTY = "credentialsPlugin";
 
     public static final String CREDENTIALS_LOCATION_PROPERTY = "credentialsLocation";
     public static final String CREDENTIALS_PASSPHRASE_PROPERTY = "credentialsPassphrase";
